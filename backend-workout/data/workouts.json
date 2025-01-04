@@ -1,0 +1,168 @@
+{
+  "workouts": [
+    {
+      "id": 1,
+      "name": "Pull (Segunda-feira e Quinta-feira)",
+      "days": ["Monday", "Thursday"],
+      "exercises": [
+        {
+          "name": "Remada curvada",
+          "sets": [
+            { "type": "warmup", "reps": 12 },
+            { "type": "normal", "reps": 6 },
+            { "type": "normal", "reps": 6 },
+            { "type": "normal", "reps": 6 }
+          ]
+        },
+        {
+          "name": "Remada cavalinho",
+          "sets": [
+            { "type": "normal", "reps": 12 },
+            { "type": "normal", "reps": 6 },
+            { "type": "normal", "reps": 6 },
+            { "type": "normal", "reps": 6 }
+          ]
+        },
+        {
+          "name": "Puxador aberto",
+          "sets": [
+            { "type": "normal", "reps": 12 },
+            { "type": "normal", "reps": 10 },
+            { "type": "normal", "reps": 8 }
+          ]
+        },
+        {
+          "name": "Voador invertido",
+          "sets": [
+            { "type": "normal", "reps": 15 },
+            { "type": "normal", "reps": 12 },
+            { "type": "normal", "reps": 10 }
+          ]
+        },
+        {
+          "name": "Rosca direta",
+          "sets": [
+            { "type": "normal", "reps": 10 },
+            { "type": "normal", "reps": 10 },
+            { "type": "normal", "reps": 15 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Push (Terça-feira e Sexta-feira)",
+      "days": ["Tuesday", "Friday"],
+      "exercises": [
+        {
+          "name": "Supino reto tradicional",
+          "sets": [
+            { "type": "warmup", "reps": 12 },
+            { "type": "normal", "reps": 6 },
+            { "type": "normal", "reps": 6 },
+            { "type": "normal", "reps": 6 }
+          ]
+        },
+        {
+          "name": "Supino fechado",
+          "sets": [
+            { "type": "normal", "reps": 12 },
+            { "type": "normal", "reps": 10 },
+            { "type": "normal", "reps": 8 }
+          ]
+        },
+        {
+          "name": "Desenvolvimento militar",
+          "sets": [
+            { "type": "warmup", "reps": 12 },
+            { "type": "normal", "reps": 6 },
+            { "type": "normal", "reps": 6 },
+            { "type": "normal", "reps": 6 }
+          ]
+        },
+        {
+          "name": "Elevação lateral",
+          "sets": [
+            { "type": "normal", "reps": 10 },
+            { "type": "normal", "reps": 10 },
+            { "type": "normal", "reps": 15 }
+          ]
+        },
+        {
+          "name": "Tríceps corda",
+          "sets": [
+            { "type": "normal", "reps": 10 },
+            { "type": "normal", "reps": 10 },
+            { "type": "normal", "reps": 15 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Perna (Quarta-feira e Sábado)",
+      "days": ["Wednesday", "Saturday"],
+      "exercises": [
+        {
+          "name": "Agachamento",
+          "sets": [
+            { "type": "normal", "reps": 15 },
+            { "type": "normal", "reps": 12 },
+            { "type": "normal", "reps": 10 },
+            { "type": "normal", "reps": 8 }
+          ]
+        },
+        {
+          "name": "Terra sumo",
+          "sets": [
+            { "type": "normal", "reps": 12 },
+            { "type": "normal", "reps": 10 },
+            { "type": "normal", "reps": 8 }
+          ]
+        },
+        {
+          "name": "Stiff",
+          "sets": [
+            { "type": "normal", "reps": 12 },
+            { "type": "normal", "reps": 10 },
+            { "type": "normal", "reps": 8 }
+          ]
+        },
+        {
+          "name": "Extensora",
+          "sets": [
+            { "type": "normal", "reps": 12 },
+            { "type": "normal", "reps": 10 },
+            { "type": "normal", "reps": 8 }
+          ]
+        },
+        {
+          "name": "Panturrilha",
+          "sets": [
+            { "type": "normal", "reps": 10 },
+            { "type": "normal", "reps": 10 },
+            { "type": "normal", "reps": 15 }
+          ]
+        }
+      ]
+    }
+  ],
+  "userHistory": [
+    {
+      "date": "2023-07-01",
+      "workoutId": 1,
+      "completed": true,
+      "intensity": 3
+    },
+    {
+      "date": "2023-07-03",
+      "workoutId": 2,
+      "completed": true,
+      "intensity": 4
+    }
+  ],
+  "userPreferences": {
+    "restPeriod": 60
+  }
+}
+

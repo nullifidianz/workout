@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './layout.css';
+@import './components.css';
+
+:root {
+  --background: 0 0% 3%;
+  --foreground: 120 70% 60%;
+  --card: 0 0% 5%;
+  --card-foreground: 120 70% 60%;
+  --primary: 120 70% 60%;
+  --primary-foreground: 0 0% 3%;
+  --secondary: 120 30% 30%;
+  --secondary-foreground: 120 70% 60%;
+  --muted: 0 0% 15%;
+  --muted-foreground: 120 30% 50%;
+  --accent: 120 30% 30%;
+  --accent-foreground: 120 70% 60%;
+  --destructive: 0 70% 50%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 120 30% 30%;
+  --input: 120 30% 30%;
+  --ring: 120 70% 60%;
+  --radius: 0px;
+}
+
+.dark {
+  --background: 0 0% 3%;
+  --foreground: 120 70% 60%;
+  --card: 0 0% 5%;
+  --card-foreground: 120 70% 60%;
+  --primary: 120 70% 60%;
+  --primary-foreground: 0 0% 3%;
+  --secondary: 120 30% 30%;
+  --secondary-foreground: 120 70% 60%;
+  --muted: 0 0% 15%;
+  --muted-foreground: 120 30% 50%;
+  --accent: 120 30% 30%;
+  --accent-foreground: 120 70% 60%;
+  --destructive: 0 70% 50%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 120 30% 30%;
+  --input: 120 30% 30%;
+  --ring: 120 70% 60%;
+}
+

@@ -1,0 +1,62 @@
+.checkbox-container {
+  @apply flex items-center space-x-2 py-2;
+}
+
+.checkbox-label {
+  @apply text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70;
+}
+
+.neon-border {
+  box-shadow: 0 0 2px #ff0000, inset 0 0 2px #ff0000;
+  border: 1px solid #ff0000;
+  image-rendering: pixelated;
+}
+
+.neon-text {
+  text-shadow: 0 0 4px #ff0000;
+  letter-spacing: 1px;
+}
+
+.retro-button {
+  @apply bg-background border border-primary text-primary hover:bg-primary hover:text-background transition-colors;
+  image-rendering: pixelated;
+  box-shadow: 2px 2px 0 #ff0000;
+}
+
+.retro-button:active {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+.retro-card {
+  @apply bg-card border-2 border-primary p-4;
+  box-shadow: 4px 4px 0 #ff0000;
+}
+
+.retro-input {
+  @apply bg-background border-2 border-primary text-primary;
+  box-shadow: inset 2px 2px 0 rgba(0, 255, 0, 0.2);
+}
+
+.retro-select {
+  @apply bg-background border-2 border-primary text-primary;
+  background-image: linear-gradient(45deg, transparent 50%, #ff0000 50%),
+                    linear-gradient(135deg, #ff0000 50%, transparent 50%);
+  background-position: calc(100% - 20px) calc(1em + 2px),
+                       calc(100% - 15px) calc(1em + 2px);
+  background-size: 5px 5px,
+                  5px 5px;
+  background-repeat: no-repeat;
+}
+
+.progress-bar {
+  @apply bg-muted;
+  border: 1px solid #ff0000;
+  box-shadow: inset 0 0 2px #ff0000;
+}
+
+.progress-bar-indicator {
+  @apply bg-primary;
+  box-shadow: 0 0 4px #ff0000;
+}
+
